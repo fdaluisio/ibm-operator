@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: openshift-operators
+
+  # dependent of the version the following is getting all the  operators defined
+resources:
+#- ./operator-group.yaml
+  # dependent of the version the following is getting all the  operators defined
+- ./ibm-cert-manager/operator/
+- ./ibm-eventautomation-flink/operator/
+- ./ibm-event-processing/operator/
+- ./ibm-event-streams/operator/

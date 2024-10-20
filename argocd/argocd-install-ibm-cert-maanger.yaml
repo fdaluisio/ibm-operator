@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ibm-cert-manager-operator
+spec:
+  project: event-automation
+  source:
+    path: ibm-cert-manager/operator/
+    repoURL: 'https://github.com/kubernetes-sigs/kustomize'
+    targetRevision: HEAD
+  destination:
+    namespace: event-automation
+    server: 'https://kubernetes.default.svc'

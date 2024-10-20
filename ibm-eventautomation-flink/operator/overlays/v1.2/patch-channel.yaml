@@ -1,0 +1,6 @@
+- op: replace
+  path: /spec/channel
+  value: v1.2
+- op: replace
+  path: /spec/startingCSV
+  value: ibm-eventautomation-flink.v1.2.1
