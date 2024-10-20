@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ibm-cert-manager-operator
+  name: ibm-event-processing-operator
 spec:
   project: proj-eventautomation
   source:
-    path: ibm-cert-manager/operator/
+    path: ibm-event-processing/operator/
     repoURL: 'https://github.com/fdaluisio/ibm-operator/'
     targetRevision: HEAD
   destination:
-    namespace: event-automation
+    namespace: openshift-operators
     server: 'https://kubernetes.default.svc'
