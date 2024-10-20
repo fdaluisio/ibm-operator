@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: ibm-cert-manager-operator
 spec:
-  project: event-automation
+  project: proj-eventautomation
   source:
     path: ibm-cert-manager/operator/
     repoURL: 'https://github.com/fdaluisio/ibm-operator/'
