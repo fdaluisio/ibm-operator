@@ -3,4 +3,4 @@
   value: v4.0
 - op: replace
   path: /spec/startingCSV
-  value: ibm-eventprocessing.v4.0.0
+  value: ibm-cert-manager-operator.v4.0.0
