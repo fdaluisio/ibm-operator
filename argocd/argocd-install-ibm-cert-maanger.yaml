@@ -6,7 +6,7 @@ spec:
   project: event-automation
   source:
     path: ibm-cert-manager/operator/
-    repoURL: 'https://github.com/kubernetes-sigs/kustomize'
+    repoURL: 'https://github.com/fdaluisio/ibm-operator/'
     targetRevision: HEAD
   destination:
     namespace: event-automation
