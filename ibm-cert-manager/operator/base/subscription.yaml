@@ -9,6 +9,6 @@ spec:
   channel: v3.23
   installPlanApproval: Automatic
   name: ibm-cert-manager-operator
-  source: ibm-operator-catalog
+  source: ibm-cert-manager-catalog
   sourceNamespace: openshift-marketplace
   startingCSV: ibm-cert-manager-operator.v3.25.13
