@@ -1,3 +1,2 @@
 resources:
-  - catalog-source.yaml
   - subscription.yaml
