@@ -1,0 +1,8 @@
+resources:
+  - ../../base
+
+patches:
+- path: patch-channel.yaml
+  target:
+    kind: Subscription
+    name: ibm-eventstreams

@@ -1,0 +1,6 @@
+- op: replace
+  path: /spec/channel
+  value: v3.4
+- op: replace
+  path: /spec/startingCSV
+  value: ibm-eventstreams.v3.4.0
