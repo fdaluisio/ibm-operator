@@ -9,6 +9,6 @@ spec:
   channel: v1.1
   installPlanApproval: Automatic
   name: ibm-eventprocessing
-  source: ibm-operator-catalog
+  source: ibm-eventprocessing-catalog
   sourceNamespace: openshift-marketplace
   startingCSV: ibm-eventprocessing.v1.1.9
