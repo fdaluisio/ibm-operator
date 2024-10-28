@@ -6,10 +6,9 @@ metadata:
   name: ibm-eventautomation-flink
   namespace: openshift-operators
 spec:
-  channel: v1.2
+  channel: v1.1
   installPlanApproval: Automatic
   name: ibm-eventautomation-flink
   source: ibm-operator-catalog
   sourceNamespace: openshift-marketplace
-  startingCSV: ibm-eventautomation-flink.v1.2.1
-
+  startingCSV: ibm-eventautomation-flink.v1.1.9
