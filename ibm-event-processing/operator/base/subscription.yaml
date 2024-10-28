@@ -6,9 +6,9 @@ metadata:
   name: ibm-eventprocessing
   namespace: openshift-operators
 spec:
-  channel: v1.2
+  channel: v1.1
   installPlanApproval: Automatic
   name: ibm-eventprocessing
   source: ibm-operator-catalog
   sourceNamespace: openshift-marketplace
-  startingCSV: ibm-eventprocessing.v1.2.1
+  startingCSV: ibm-eventprocessing.v1.1.9
